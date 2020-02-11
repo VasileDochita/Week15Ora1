@@ -28,7 +28,7 @@ namespace ConsoleApp27
 
             for (int i = 0; i < number.Count; i++)
             {
-                if (i > 100000 && i < 200000) 
+                if (i > 100000 && i < 200000)
                 {
                     element = i;
                 }
@@ -36,8 +36,9 @@ namespace ConsoleApp27
 
             stopwatch.Stop();
 
-            Console.WriteLine("Time elapsed  is {0} " , stopwatch.Elapsed);
+            Console.WriteLine("Time elapsed  is {0} ", stopwatch.Elapsed);
 
         }
+
     }
 }
